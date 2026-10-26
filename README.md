@@ -1,4 +1,4 @@
-# livekit-test
+# LiveKit Test
 
 A test project for me to familiarize with [LiveKit Agents](https://docs.livekit.io/agents/).
 
