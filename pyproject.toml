@@ -1,0 +1,20 @@
+[project]
+name = "livekit-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Piero", email = "piero.cornice@proton.me" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "livekit-agents[openai]~=1.8",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+livekit-test = "livekit_test:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
